@@ -19,6 +19,7 @@ struct ListNode {
    此时让两个指针同时走，那么原来的指针就走了n-k个节点
    也就找到了倒数第k个节点。
    本题k是unsigned，所以不考虑小于0情况。
+   还应该考虑k比节点多的情况
 */
 class Solution {
 public:
